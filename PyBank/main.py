@@ -55,7 +55,7 @@ print(f'Greatest Increase in Profits: {TotalMonths[GreatestIncIndex]} ${Greatest
 print(f'Greatest Decrease in Profits: {TotalMonths[GreatestDecIndex]} ${GreatestDec}')
 
 #output to txt file
-output = open("FinancialAnalysis.txt", 'w')
+output = open("Analysis/FinancialAnalysis.txt", 'w')
 output.write(f'''
 Financial Analysis
 -------------------------
